@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.twisti.mods.chatOpen.mixin",
+  "package": "me.twisti.mods.chatOpen.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
   "client": [
+    "ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
