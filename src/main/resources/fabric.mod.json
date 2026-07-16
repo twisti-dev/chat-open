@@ -4,17 +4,15 @@
   "version": "${version}",
   "name": "chat-open",
   "description": "Leaves the Chat open after sending a message",
-  "authors": [],
+  "authors": [
+    "twisti"
+  ],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/chat-open/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "me.twisti.mods.chatOpen.client.ChatOpenClient"
-    ],
-    "main": [
-      "me.twisti.mods.chatOpen.ChatOpen"
     ]
   },
   "mixins": [

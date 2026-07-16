@@ -30,7 +30,7 @@ abstract class ChatScreenMixin(component: Component) : Screen(component) {
             this.handleChatInput(text, true)
             this.input!!.value = ""
 
-            this.minecraft.setScreen(this)
+            this.minecraft.setScreenAndShow(this)
             cir.setReturnValue(true)
         }
     }
